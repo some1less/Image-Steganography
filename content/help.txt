@@ -1,0 +1,22 @@
+Well come!
+It's simple program to hide your secret text inside the photo file!
+Program supports only 2 formats of images - bmp and ppm.
+
+Useful commands:
+
+        -h, --help  [no args]       list of possible commands
+
+        -i, --info  [filepath]
+                    checks if the path leads to a file in a supported format
+
+        -c, --check [filepath] [string text]
+                    checks if a message could be saved in the given file
+
+        -e, --encrypt [filepath] [string text]
+                    writes into the image file the specified message
+                    -> adds to the output file name prefix "enc_[filepath]"
+
+        -d, --decrypt [filepath]
+                    reads message from encrypted image file
+
+Developed by s31164, PJAIT
