@@ -1,6 +1,8 @@
 # Image Steganography v1.0 (updated for Windows)
 
-Console App that works with BMP and PPM picture formats. Program supports stated formats for checking properties, encoding and decoding messages into pictures. It also has the ability to check whether a message can be written into an image.
+A console-based program that was a semester project for a C++ course at PJATK Univesity.
+
+The program mainly works with BMP and PPM picture formats. It supports stated formats for checking properties, encoding and decoding messages into pictures. It also has the ability to check whether a message can be written into an image.
 **Currently, this version is undergoing refactoring, therefore the encoding and decoding functions are temporarily unavailable.**
 
 ### Important Note before executing command lines
